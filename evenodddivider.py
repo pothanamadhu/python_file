@@ -1,0 +1,16 @@
+n=int(input())
+o=s=e=0
+while(n):
+      r=n%10
+      n=n//10
+      s=s*10+r
+n=s
+r=o
+while(n):
+      r=n%10
+      n=n//10
+      if(r%2==0):
+            e=e*10+r
+      else:
+            o=o*10+r
+print(e,o)
