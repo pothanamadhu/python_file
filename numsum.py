@@ -13,5 +13,5 @@ for i in n:
 if len(g):
       for j in g:
             t=t*10+(ord(j)-48)
-k=k+t
+      k=k+t
 print(k)
